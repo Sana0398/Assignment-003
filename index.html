@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nature's Platter</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+        </style>
+    <style>
         @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
     </style>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
@@ -14,6 +17,11 @@
         .sora-font {
   font-family: "Sora", serif;
   font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.adlam-font {
+  font-family: "ADLaM Display", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -135,15 +143,194 @@
 
         <div class="bg-[#EFEBE3] lg:p-36 px-4 pt-12 ">
             <h3 class="text-4xl font-semibold text-[#179800] pb-12">Popular Products</h3>
-            <div class="bg-[url(./c2-assets/vegetable-offer.png)] bg-no-repeat ">
-
-
+            <div class="flex flex-col justify-between items-center mx-4  lg:flex-row">
+            <div class="bg-gradient-to-r from-[#53DB3A] to-white pt-11 pl-7">
+                <h3 class="text-white font-normal text-2xl adlam-font mb-5 lg:text-3xl">30% Off</h3>
+                <p class="font-normal text-sm text-[#111111]/7 mb-4 lg:text-base pr-12">Discover a world to treats, toys, and <br> essentials handpicked for</p>
+                <button class="btn bg-white text-[#111111] font-normal text-base lg:text-xl">Buy Now</button>
+                <div class="flex justify-end max-h-48   ">
+                    <img src="./c2-assets/vegetable-offer.png" alt="Vegatable Image " >
+                </div>
             </div>
+
+                <div class="star-card grid grid-cols-2 gap-3 pt-5 px-5 lg:grid-cols-3 lg:gap-6">
+
+
+                    <div class=" bg-white shadow-xl p-4 pr-10 flex justify-between space-x-4 rounded-xl">
+                      <div class="flex justify-center items-center bg-[#EFEBE3] rounded-xl max-w-20 max-h-20">
+                        <img class=""
+                          src="./c2-assets/onion.png"
+                          alt="Onion Image" />
+                      </div>
+                      <div class=" text-[#111111] font-normal text-base">
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <span class="space-x-3"> 4.5</span>
+                          </div>
+                        
+                        <h3 class="text-xl">Onion 1 kg</h3>
+                        <h3 class="">$39.99</h3>
+                      </div>
+                      
+                    </div>
+                    <div class=" bg-white shadow-xl p-4 pr-10 flex justify-between space-x-4 rounded-xl">
+                        <div class="flex justify-center items-center bg-[#EFEBE3] rounded-xl max-w-20 max-h-20">
+                          <img class=""
+                            src="./c2-assets/tomato.png"
+                            alt="tomato Image" />
+                        </div>
+                        <div class=" text-[#111111] font-normal text-base">
+                          <div class="rating">
+                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                              <span class="space-x-3"> 4.5</span>
+                            </div>
+                          
+                          <h3 class="text-xl">Tomato 1 kg</h3>
+                          <h3 class="">$39.99</h3>
+                        </div> 
+                      </div>
+
+                      <div class=" bg-white shadow-xl p-4 pr-10 flex justify-between space-x-4 rounded-xl">
+                        <div class="flex justify-center items-center bg-[#EFEBE3] rounded-xl max-w-20 max-h-20">
+                          <img class=""
+                            src="./c2-assets/potato.png"
+                            alt="tomato Image" />
+                        </div>
+                        <div class=" text-[#111111] font-normal text-base">
+                          <div class="rating">
+                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                              <span class="space-x-3"> 4.5</span>
+                            </div>
+                          
+                          <h3 class="text-xl">Potato 1 kg</h3>
+                          <h3 class="">$39.99</h3>
+                        </div> 
+                      </div>
+
+                      <div class=" bg-white shadow-xl p-4 pr-10 flex justify-between space-x-4 rounded-xl">
+                        <div class="flex justify-center items-center bg-[#EFEBE3] rounded-xl max-w-20 max-h-20">
+                          <img class=""
+                            src="./c2-assets/tomato.png"
+                            alt="tomato Image" />
+                        </div>
+                        <div class=" text-[#111111] font-normal text-base">
+                          <div class="rating">
+                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                              <span class="space-x-3"> 4.5</span>
+                            </div>
+                          
+                          <h3 class="text-xl">Tomato 1 kg</h3>
+                          <h3 class="">$39.99</h3>
+                        </div> 
+                      </div>
+
+                      <div class=" bg-white shadow-xl p-4 pr-10 flex justify-between space-x-4 rounded-xl">
+                        <div class="flex justify-center items-center bg-[#EFEBE3] rounded-xl max-w-20 max-h-20">
+                          <img class=""
+                            src="./c2-assets/onion.png"
+                            alt="tomato Image" />
+                        </div>
+                        <div class=" text-[#111111] font-normal text-base">
+                          <div class="rating">
+                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                              <span class="space-x-3"> 4.5</span>
+                            </div>
+                          
+                          <h3 class="text-xl">Onion 1 kg</h3>
+                          <h3 class="">$39.99</h3>
+                        </div> 
+                      </div>
+
+                      <div class=" bg-white shadow-xl p-4 pr-10 flex justify-between space-x-4 rounded-xl">
+                        <div class="flex justify-center items-center bg-[#EFEBE3] rounded-xl max-w-20 max-h-20">
+                          <img class=""
+                            src="./c2-assets/tomato.png"
+                            alt="tomato Image" />
+                        </div>
+                        <div class=" text-[#111111] font-normal text-base">
+                          <div class="rating">
+                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                              <span class="space-x-3"> 4.5</span>
+                            </div>
+                          
+                          <h3 class="text-xl">Tomato 1 kg</h3>
+                          <h3 class="">$39.99</h3>
+                        </div> 
+                      </div>
+
+                      <div class=" bg-white shadow-xl p-4 pr-10 flex justify-between space-x-4 rounded-xl">
+                        <div class="flex justify-center items-center bg-[#EFEBE3] rounded-xl max-w-20 max-h-20">
+                          <img class=""
+                            src="./c2-assets/onion.png"
+                            alt="tomato Image" />
+                        </div>
+                        <div class=" text-[#111111] font-normal text-base">
+                          <div class="rating">
+                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                              <span class="space-x-3"> 4.5</span>
+                            </div>
+                          
+                          <h3 class="text-xl">Onion 1 kg</h3>
+                          <h3 class="">$39.99</h3>
+                        </div> 
+                      </div>
+
+                      <div class=" bg-white shadow-xl p-4 pr-10 flex justify-between space-x-4 rounded-xl">
+                        <div class="flex justify-center items-center bg-[#EFEBE3] rounded-xl max-w-20 max-h-20">
+                          <img class=""
+                            src="./c2-assets/tomato.png"
+                            alt="tomato Image" />
+                        </div>
+                        <div class=" text-[#111111] font-normal text-base">
+                          <div class="rating">
+                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                              <span class="space-x-3"> 4.5</span>
+                            </div>
+                          
+                          <h3 class="text-xl">Tomato 1 kg</h3>
+                          <h3 class="">$39.99</h3>
+                        </div> 
+                      </div>
+
+                      <div class="hidden lg:block">
+                      <div class=" bg-white shadow-xl p-4 pr-10 flex justify-between space-x-4 rounded-xl">
+                        <div class="flex justify-center items-center bg-[#EFEBE3] rounded-xl max-w-20 max-h-20">
+                          <img class=""
+                            src="./c2-assets/potato.png"
+                            alt="tomato Image" />
+                        </div>
+                        <div class=" text-[#111111] font-normal text-base">
+                          <div class="rating">
+                              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                              <span class="space-x-3"> 4.5</span>
+                            </div>
+                          
+                          <h3 class="text-xl">Potatooo 1 kg</h3>
+                          <h3 class="">$39.99</h3>
+                        </div> 
+                      </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    </div>
+
+
+              </div>
             <div>
 
             </div>
 
 
+        </div>
+
+        <div>
+            <h3 class="text-4xl font-semibold text-[#179800] pb-12">Arrival & Offers</h3>
         </div>
 
     </main>
